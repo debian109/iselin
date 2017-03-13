@@ -3,34 +3,46 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="Library" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_playlist"
+            android:icon="@drawable/ic_queue_music_black_24dp"
+            android:title="Playlists" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_folder"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Folders" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_recent_play"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Recent Play" />
+        <item
+            android:id="@+id/nav_recent_add"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Recent Add" />
+        <item
+            android:id="@+id/nav_play_ranking"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="Play Ranking" />
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+
+        <item
+            android:id="@+id/nav_last"
+            android:title=""
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Exit" />
+            </menu>
+        </item>
+    </group>
 
 </menu>
